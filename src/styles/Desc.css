@@ -1,0 +1,19 @@
+.desc{
+  margin-top: 20px;
+  text-align: center;
+}
+.desc-img{
+  width: 20%;
+}
+.product-buy1 {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px; 
+  width: 20%;
+  margin-bottom: 50px;
+  background: transparent;
+ 
+}
+.product-buy1:hover {
+  background-color: rgb(220, 168, 131);
+}
