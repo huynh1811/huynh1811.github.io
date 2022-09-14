@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Header from './components/Header';
@@ -43,16 +43,14 @@ function App() {
     }
   
     return (
-        <div className="wrapper">
+          <div className="wrapper">
             <Header Out={Out} oder={oder} countCartItems={cartItems.length}/>
-           <Routes>
+           <Routes >
             <Route path='/' element={<Product onAdd={onAdd} />}></Route>
             <Route path='/desc/:slug' element={<Desc onAdd={onAdd} cartItems={cartItems}/>}></Route>
             <Route  path='/cart' element={<Cart deleteCart={deleteCart} onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />} />
             <Route path='/login' element={<Login setOder={setOder} />}></Route>
            </Routes>
-        
-            
         </div>
     );
 }
