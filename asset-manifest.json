@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.72749a61.css",
-    "main.js": "/static/js/main.8fab2dda.js",
+    "main.js": "/static/js/main.d9570f8e.js",
     "static/media/Somi.webp": "/static/media/Somi.dc04acbe6de1d13791f4.webp",
     "static/media/cart sad.png": "/static/media/cart sad.1abde708369b147d6811.png",
     "index.html": "/index.html",
     "main.72749a61.css.map": "/static/css/main.72749a61.css.map",
-    "main.8fab2dda.js.map": "/static/js/main.8fab2dda.js.map"
+    "main.d9570f8e.js.map": "/static/js/main.d9570f8e.js.map"
   },
   "entrypoints": [
     "static/css/main.72749a61.css",
-    "static/js/main.8fab2dda.js"
+    "static/js/main.d9570f8e.js"
   ]
 }
